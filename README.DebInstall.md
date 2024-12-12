@@ -39,6 +39,14 @@ The *service* command is used to run the traditional System V init script.
 
 Compile Deb Package
 -------------------
+libmodule-find-perl
+
+libproc-processtable-perl
+libsort-naturally-perl
+libterm-readkey-perl
+libimvirt-perl
+
+
 
 
 
