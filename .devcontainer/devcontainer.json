@@ -4,7 +4,11 @@
 	"name": "Debian",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
-	"features": {
+	"runArgs": [
+		"--name",
+		"${localEnv:USER}-devcontainer-needrestart"
+	],
+"features": {
 		"ghcr.io/wxw-matt/devcontainer-features/apt:0": {
 			"clean_cache": true,
 			"local_mirror": true
